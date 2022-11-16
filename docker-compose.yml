@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  db:
+   image: postgres:9.4
+   restart: always
+   tty: true
+   environment:
+     - POSTGRES_PASSWORD=root
+     - POSTGRES_DB=postgres
+     - POSTGRES_SCHEMA=mercadolivre
+   ports:
+     - "5432:5432"

@@ -1,0 +1,8 @@
+.pgdata
+.idea
+.env
+.DS_Store
+files_bkp
+files
+leitura2.csv
+leitura.csv
